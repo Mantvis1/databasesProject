@@ -65,7 +65,7 @@ a:hover {
 
 /* viršutinė puslapio dalis */
 #header {
-	width: 1200px;
+	width: 1300px;
 	height: 70px;
 	background-color: #98FB98;
 	border: 1px solid #c0c0c0; /* rėmelis */
@@ -84,7 +84,7 @@ a:hover {
 
 /* turinio blokelis */
 #content {
-	width: 1200px;
+	width: 1300px;
 	background-color: #fff;
 	border-left: 1px solid #c0c0c0;
 	border-right: 1px solid #c0c0c0;
@@ -93,7 +93,7 @@ a:hover {
 
 /* pagrindinio meniu blokelis */
 #topMenu {
-	width: 1200px;
+	width: 1300px;
 	height: 45px;
 	border-bottom: 1px solid #c0c0c0;
 	float: left;
@@ -495,7 +495,7 @@ fieldset .submit {
 
 /* apatinė puslapio dalis */
 #footer {
-	width: 1200px;
+	width: 1300px;
 	height: 40px;
 	border: 1px solid #c0c0c0;
 	float: left;

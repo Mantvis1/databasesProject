@@ -9,95 +9,109 @@
                 <script type="text/javascript" src="scripts/jquery-1.12.0.min.js"></script>
                 <script type="text/javascript" src="scripts/datetimepicker/jquery.datetimepicker.full.min.js"></script>
                 <script type="text/javascript" src="scripts/main.js"></script>
-    </head>
-    <body>
-        <div id="body">
-            <div id="header">
-                <h3 id="slogan"><a href="index.php">Krepsinio IS</a></h3>
-            </div>
-            <div id="content">
-                <div id="topMenu">
-                    <ul class="float-left">
-                        <li><a href="index.php?module=players&action=list" title="Zaidejai"
-                            <?php
-                            if ($module == 'players') {
-                                echo 'class="active"';
-                            }
-                            ?>>Zaidejai</a>
-                        </li>
-                        <li><a href="index.php?module=teams&action=list" title="Komandos"
-                            <?php
-                            if ($module == 'teams') {
-                                echo 'class="active"';
-                            }
-                            ?>>Komandos</a>
-                        </li>
-                        <li><a href="index.php?module=support&action=list" title="Remejai"
-                            <?php
-                            if ($module == 'support') {
-                                echo 'class="active"';
-                            }
-                            ?>>Remejai</a>
-                        </li>
-                        <li><a href="index.php?module=arena&action=list" title="Arena"
-                            <?php
-                            if ($module == 'arena') {
-                                echo 'class="active"';
-                            }
-                            ?>>Arenos</a>
-                        </li>
-                        <li><a href="index.php?module=games&action=list" title="Rungtynes"
-                            <?php
-                            if ($module == 'games') {
-                                echo 'class="active"';
-                            }
-                            ?>>Rungtynes</a>
-                        </li>
-                        <li><a href="index.php?module=teamStats&action=list" title="Komandine statistika"
-                            <?php
-                            if ($module == 'teamStats') {
-                                echo 'class="active"';
-                            }
-                            ?>>Komandine statistika</a>
-                        </li>
-                        <li><a href="index.php?module=personalStats&action=list" title="Asmenine statistika"
-                            <?php
-                            if ($module == 'personalStats') {
-                                echo 'class="active"';
-                            }
-                            ?>>Asmenine statistika</a>
-                        </li>
-                        <li><a href="index.php?module=personnel&action=list" title="Personalas"
-                            <?php
-                            if ($module == 'personnel') {
-                                echo 'class="active"';
-                            }
-                            ?>>Personalas</a>
-                        </li>
-                        <li><a href="index.php?module=activity&action=list" title="Personalo veikla"
-                            <?php
-                            if ($module == 'activity') {
-                                echo 'class="active"';
-                            }
-                            ?>>Personalo veikla</a>
-                        </li>
-                         <li><a href="index.php?module=history&action=list" title="Istorija"
-                            <?php
-                            if ($module == 'history') {
-                                echo 'class="active"';
-                            }
-                            ?>>Istorija</a>
-                        </li>
-                    </ul>
-                </div>
-                <div id="contentMain">
-                    <div class="float-clear"></div>
-                </div>
-            </div>
-            <div id="footer">
+                </head>
+                <body>
+                    <div id="body">
+                        <div id="header">
+                            <h3 id="slogan"><a href="index.php">Krepsinio IS</a></h3>
+                        </div>
+                        <div id="content">
+                            <div id="topMenu">
+                                <ul class="float-left">
+                                    <li><a href="index.php?module=player&action=list" title="Zaidejai"
+                                        <?php
+                                        if ($module == 'player') {
+                                            echo 'class="active"';
+                                        }
+                                        ?>>Zaidejai</a>
+                                    </li>
+                                    <li><a href="index.php?module=team&action=list" title="Komandos"
+                                        <?php
+                                        if ($module == 'team') {
+                                            echo 'class="active"';
+                                        }
+                                        ?>>Komandos</a>
+                                    </li>
+                                    <li><a href="index.php?module=sponsor&action=list" title="Remejai"
+                                        <?php
+                                        if ($module == 'sponsor') {
+                                            echo 'class="active"';
+                                        }
+                                        ?>>Remejai</a>
+                                    </li>
+                                    <li><a href="index.php?module=arena&action=list" title="Arena"
+                                        <?php
+                                        if ($module == 'arena') {
+                                            echo 'class="active"';
+                                        }
+                                        ?>>Arenos</a>
+                                    </li>
+                                    <li><a href="index.php?module=contest&action=list" title="Rungtynes"
+                                        <?php
+                                        if ($module == 'contest') {
+                                            echo 'class="active"';
+                                        }
+                                        ?>>Rungtynes</a>
+                                    </li>
+                                    <li><a href="index.php?module=teamStats&action=list" title="Komandine statistika"
+                                        <?php
+                                        if ($module == 'teamStats') {
+                                            echo 'class="active"';
+                                        }
+                                        ?>>Komandine statistika</a>
+                                    </li>
+                                    <li><a href="index.php?module=personalStats&action=list" title="Asmenine statistika"
+                                        <?php
+                                        if ($module == 'personalStats') {
+                                            echo 'class="active"';
+                                        }
+                                        ?>>Asmenine statistika</a>
+                                    </li>
+                                    <li><a href="index.php?module=personnel&action=list" title="Personalas"
+                                        <?php
+                                        if ($module == 'personnel') {
+                                            echo 'class="active"';
+                                        }
+                                        ?>>Personalas</a>
+                                    </li>
+                                    <li><a href="index.php?module=activity&action=list" title="Personalo veikla"
+                                        <?php
+                                        if ($module == 'activity') {
+                                            echo 'class="active"';
+                                        }
+                                        ?>>Personalo veikla</a>
+                                    </li>
+                                    <li><a href="index.php?module=history&action=list" title="Istorija"
+                                        <?php
+                                        if ($module == 'history') {
+                                            echo 'class="active"';
+                                        }
+                                        ?>>Istorija</a>
+                                    </li>
+                                    <li><a href="index.php?module=report&action=list" title="Ataskaitos"
+                                        <?php
+                                        if ($module == 'report') {
+                                            echo 'class="active"';
+                                        }
+                                        ?>>Ataskaitos</a>
+                                    </li>
+                                </ul>
 
-            </div>
-        </div>
-    </body>
-</html>
+                            </div>
+                            <div id="contentMain">
+                                <?php
+                                // įtraukiame veiksmų failą
+                                if (file_exists($actionFile)) {
+                                    include $actionFile;
+                                }
+                                ?>
+                                <div class="float-clear"></div>
+                            </div>
+                        </div>
+                        <div id="footer">
+
+                        </div>
+                    </div>
+                </body>
+                </html>
 

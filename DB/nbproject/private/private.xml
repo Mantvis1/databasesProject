@@ -3,8 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/DB/config.php</file>
-            <file>file:/C:/xampp/htdocs/DB/utils/mysql.class.php</file>
+            <file>file:/C:/xampp/htdocs/DB/templates/report_list.tpl.php</file>
+            <file>file:/C:/xampp/htdocs/DB/libraries/player.class.php</file>
         </group>
     </open-files>
 </project-private>

@@ -11,7 +11,7 @@ class mysql {
     protected static $connection;
 
     public static function connect() {
-       $conn = new mysqli('localhost', 'manraz3', 'uikaiN8Zamoo4ok5', 'manraz3',3307);
+       $conn = new mysqli(config::DB_SERVER, config::DB_USERNAME, config::DB_PASSWORD, config::DB_NAME);
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
        }
