@@ -1,2 +1,2 @@
 # databasesProject
-Using these technologies: PHP, Javascript, html, css.
+PHP, Javascript, html, css.
